@@ -197,12 +197,10 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     CAPTION = """{file_name}({file_size})
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-Click the link below and join the group
-and download the movie.
-Otherwise the file will not work
+Click the link below and join the group and download the movie. Otherwise the file will not work.
 🚦Group 1👉 <a href=https://t.me/+Y32snQsuAis0YWQ1>📽 ᴄɪɴᴇᴍᴀ ɢᴀʟᴀxʏ📽</a></b>
 🚦Group 2👉 <a href=https://t.me/SA_movie_request_group>🟢 sᴀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ 🟢</a></b>
-🚦Group 3👉 <a href=https://t.me/Cinema_Hub_Entertainment>⭕Cɪɴᴇᴍᴀ Hᴜʙ Eɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ⭕</a></b>
+🚦Group 3👉 <a href=https://t.me/Cinema_Hub_Entertainment>⭕Cɪɴᴇᴍᴀ Hᴜʙ Eɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ</a></b>
 🚦Group 4👉 <a href=https://t.me/Movie_junctiongrup>🎗 ᴍᴏᴠɪᴇ ᴊᴜɴᴄᴛɪᴏɴ 🎗</a></b>""" 
 
     IMDB_TEMPLATE_TXT = """
