@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '26513278'))
-API_HASH = environ.get('API_HASH', '7a3df75c8ed3520737e343e9f049166b')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6356386139:AAHPuTQrSqnYVgz2SGuoUCXNu-jex8DtEfY")
 
 # Bot settings
@@ -43,7 +43,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mojahidalam8092:qbgWTgOUt65UCaSn@cluster0.euzgib2.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mojahidalam8092')
 
