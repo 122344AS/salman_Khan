@@ -65,7 +65,6 @@ class Database:
     
     async def add_user(self, id, name):
         user = self.new_user(id, name)
-        if tempDict['indexDB'] == DATABASE_URI:
             await self.col.insert_one(user)
         else:
             await self.col2.insert_one(user)
