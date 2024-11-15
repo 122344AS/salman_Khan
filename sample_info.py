@@ -1,5 +1,3 @@
-from info import DATABASE_URI
-
 # Bot information
 SESSION = 'Media_search'
 USER_SESSION = 'User_Bot'
@@ -19,8 +17,6 @@ AUTH_USERS = []
 AUTH_CHANNEL = None
 
 # MongoDB information
+DATABASE_URI = "mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb]?retryWrites=true&w=majority"
 DATABASE_NAME = 'Telegram'
 COLLECTION_NAME = 'channel_files'  # If you are using the same database, then use different collection name for each bot
-
-#temp dict for storing the db uri which will be used for storing user, chat and file infos
-tempDict = {'indexDB': DATABASE_URI}
